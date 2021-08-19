@@ -1,0 +1,9 @@
+<library path="lib/libcustom_panda_controllers">
+  <class name="custom_panda_controllers/CartesianVelocityCustomController"
+         type="custom_panda_controllers::CartesianVelocityCustomController"
+         base_class_type="controller_interface::ControllerBase">
+    <description>
+      Listens to topic and sets the cartesian target velocity
+    </description>
+  </class>
+</library>
