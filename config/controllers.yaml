@@ -121,5 +121,5 @@ fixed_joint_impedance_controller:
       goal: 0.05
       
 my_cartesian_velocity_controller:
-  type: my_panda_controllers/CartesianVelocityMyController
+  type: my_panda_controllers/CartesianVelocityCustomController
   # arm_id: panda
